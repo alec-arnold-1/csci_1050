@@ -1,0 +1,19 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+circle(200,200,300) // create circle
+line(200,350,200,50) //cuts circle in half for pie chart
+line(200,175,90,300) //line to cut pie chart
+line(200,175,300,90) //line to cut pie chart
+// line(x1, y1, x2, y2)
+text("Land 10%",210,100) //Text for land being 10%
+text("Global Real Estate Market Share",100,25) //Heading text
+text("Residential 40%",230,200) //text for residential bottom right
+text("Industrial 20%",100,150) //text for industiral top left
+text("Commercial 30%",100,300) //text for commercial bottom left
+
+}
+
